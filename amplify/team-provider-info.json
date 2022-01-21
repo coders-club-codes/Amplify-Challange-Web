@@ -1,0 +1,41 @@
+{
+  "coders": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-blog-coders-192924-authRole",
+      "UnauthRoleArn": "arn:aws:iam::267017723086:role/amplify-blog-coders-192924-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::267017723086:role/amplify-blog-coders-192924-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-blog-coders-192924-deployment",
+      "UnauthRoleName": "amplify-blog-coders-192924-unauthRole",
+      "StackName": "amplify-blog-coders-192924",
+      "StackId": "arn:aws:cloudformation:us-east-1:267017723086:stack/amplify-blog-coders-192924/ef1d81e0-77e4-11ec-aa6b-0e9d60784371",
+      "AmplifyAppId": "d2vn2tshgwwlzb",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-blog-coders-192924-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "blog55b5d87c": {},
+        "true": {},
+        "blog7b2e45b0": {},
+        "bloga24d8ac8": {}
+      },
+      "function": {
+        "Trigger0a1fd0d9": {
+          "deploymentBucketName": "amplify-blog-coders-192924-deployment",
+          "s3Key": "amplify-builds/S3Trigger0a1fd0d9-54634a65344a6b644544-build.zip"
+        },
+        "bloga24d8ac8CustomMessage": {
+          "deploymentBucketName": "amplify-blog-coders-192924-deployment",
+          "s3Key": "amplify-builds/bloga24d8ac8CustomMessage-3765466f4c4173583852-build.zip",
+          "REDIRECTURL": "https://master.d2vn2tshgwwlzb.amplifyapp.com",
+          "EMAILSUBJECT": "Confirme seu email no Blog da Coders Club!",
+          "EMAILMESSAGE": "Utilize o código ou link abaixo para confirmar sua conta no Blog da Coders Club"
+        },
+        "S3Triggerf4fe2901": {
+          "deploymentBucketName": "amplify-blog-coders-192924-deployment",
+          "s3Key": "amplify-builds/S3Triggerf4fe2901-6537614a50304f375337-build.zip"
+        }
+      }
+    }
+  }
+}
